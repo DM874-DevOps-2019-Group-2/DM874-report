@@ -14,9 +14,12 @@
 * Grafana
 ## Datastore
 * Postgres
+* Redis for session layer
 ## Messaging
 * Kafka
 ## Distribution
 * Docker
 ## Scheduling and routing
 * Kubernetes (GKE)
+## Serilization
+* Google protobuf

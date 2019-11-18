@@ -31,12 +31,8 @@ Functional messaging, a message will given all the required steps when sent arou
     }
   ],
   "tasks": {
-    "1": {
-      "topic": "TOPIC1"
-    },
-    "2": {
-      "topic": "TOPIC2"
-    }
+    "1": "TOPIC1",
+    "2": "TOPIC2"
   }
 }
 ```

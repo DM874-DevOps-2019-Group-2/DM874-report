@@ -12,9 +12,9 @@ Functional messaging, a message will given all the required steps when sent arou
 ### Message structure
 ```json
 {
-  "destinationid": 42,
+  "destinationId": 42,
   "message": "Hello world!",
-  "fromautoreply": false
+  "fromAutoReply": false
 }
 ```
 

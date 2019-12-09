@@ -22,15 +22,16 @@ Functional messaging, a message will given all the required steps when sent arou
 ```json
 {
   "messageid": "UID",
-  "senderid": 12,
-  "messagedestinations": [
+  "sessionId": "UID",
+  "senderId": 12,
+  "messageDestinations": [
     {
-      "destinationid": 42,
+      "destinationId": 42,
       "message": "Hello world!",
-      "fromautoreply": false
+      "fromAutoReply": false
     }
   ],
-  "tasks": {
+  "eventDestinations": {
     "1": "TOPIC1",
     "2": "TOPIC2"
   }

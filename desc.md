@@ -21,7 +21,7 @@ Functional messaging, a message will given all the required steps when sent arou
 ### Event sourcing structure
 ```json
 {
-  "messageid": "UID",
+  "messageId": "UID",
   "sessionId": "UID",
   "senderId": 12,
   "messageDestinations": [

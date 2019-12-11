@@ -27,6 +27,7 @@ Functional messaging, a message will given all the required steps when sent arou
   "messageDestinations": [
     {
       "destinationId": 42,
+      "messageId": "UID",
       "message": "Hello world!",
       "fromAutoReply": false
     }

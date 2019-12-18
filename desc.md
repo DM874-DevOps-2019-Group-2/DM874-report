@@ -25,7 +25,7 @@ Functional messaging, a message will given all the required steps when sent arou
   "sessionId": "UID",
   "senderId": 12,
   "fromAutoReply": false,
-   "messageDestinations": [
+  "messageDestinations": [
     {
       "destinationId": 42,
       "messageId": "UID",

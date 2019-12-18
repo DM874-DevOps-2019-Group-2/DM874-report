@@ -13,24 +13,24 @@ Functional messaging, a message will given all the required steps when sent arou
 ```json
 {
   "destinationId": 42,
+  "messageId": "UID",
   "message": "Hello world!",
-  "fromAutoReply": false
 }
+
 ```
 
 ### Event sourcing structure
 ```json
 {
-  "messageId": "UID",
   "sessionId": "UID",
   "senderId": 12,
-  "messageDestinations": [
+  "fromAutoReply": false,
+   "messageDestinations": [
     {
       "destinationId": 42,
       "messageId": "UID",
       "message": "Hello world!",
-      "fromAutoReply": false
-    }
+   }
   ],
   "eventDestinations": {
     "1": "TOPIC1",

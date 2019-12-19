@@ -9,29 +9,15 @@ The application as of now will consist of three microservices:
 ## Functional & reactive messaging
 Functional messaging, a message will given all the required steps when sent around:
 
-### Message structure
-```json
-{
-  "destinationId": 42,
-  "messageId": "UID",
-  "message": "Hello world!",
-}
-
-```
-
 ### Event sourcing structure
 ```json
 {
-  "sessionId": "UID",
-  "senderId": 12,
+  "messageUid": "c0a630d2-8db3-4a03-9e19-7141582f37aa",
+  "sessionUid": "cf2bd7ca-ba13-40d9-8fb7-bab2064028d4",
+  "messageBody": "Hello, world!"
+  "senderId": 42,
+  "recipientIds": [12, 8],
   "fromAutoReply": false,
-  "messageDestinations": [
-    {
-      "destinationId": 42,
-      "messageId": "UID",
-      "message": "Hello world!",
-   }
-  ],
   "eventDestinations": {
     "1": "TOPIC1",
     "2": "TOPIC2"

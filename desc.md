@@ -14,7 +14,7 @@ Functional messaging, a message will given all the required steps when sent arou
 {
   "messageUid": "c0a630d2-8db3-4a03-9e19-7141582f37aa",
   "sessionUid": "cf2bd7ca-ba13-40d9-8fb7-bab2064028d4",
-  "messageBody": "Hello, world!"
+  "messageBody": "Hello, world!",
   "senderId": 42,
   "recipientIds": [12, 8],
   "fromAutoReply": false,

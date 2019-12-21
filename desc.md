@@ -18,10 +18,7 @@ Functional messaging, a message will given all the required steps when sent arou
   "senderId": 42,
   "recipientIds": [12, 8],
   "fromAutoReply": false,
-  "eventDestinations": {
-    "1": "TOPIC1",
-    "2": "TOPIC2"
-  }
+  "eventDestinations": ["TOPIC1", "TOPIC2"]
 }
 ```
 ### An example following the image

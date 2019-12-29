@@ -6,6 +6,7 @@ The application as of now will consist of three microservices:
 * A backend for serving the page (Scala).
 * A service for handling user login requests (Scala).
 * A service for handling profanities (Go).
+* A service for handling user routing (destinations) (Scala).
 ## Functional & reactive messaging
 Functional messaging, a message will given all the required steps when sent around:
 
